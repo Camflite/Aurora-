@@ -3,7 +3,7 @@
 ## Disclaimer and Warning&#x20;
 
 \
-Before using Aurora, please carefully read this disclaimer and warning and review the Aurora Aircraft Flight Manual (AFM). If you have any questions, please contact support@Camflite.com. The most updated version of the manual is on the Aurora Support Page.\
+Before using Aurora, please read this disclaimer and warning carefully and review the Aurora Aircraft Flight Manual (AFM). If you have any questions, please get in touch with support@Camflite.com. The most updated version of the manual is on the Aurora Support Page.\
 \
 Using the Aurora, you acknowledge that you have read, understood, and agreed to this disclaimer. You are solely responsible for your conduct while using the Aurora and for any direct or indirect consequences that may result from its use. Please comply with local and airspace rules and regulations and use the Aurora only for appropriate purposes.\
 \
@@ -14,7 +14,7 @@ Always thoroughly check the Aurora and its components before each operation. Mai
 * Never attempt to touch the Aurora when the propellers are moving.
 * Do not fly the Aurora over or around people, power lines, or other aircraft.
 * Avoid using propellers that have visible imperfections or damage.
-* Always keep children and animals safe from the Aurora when it is used or when changing its configuration.
+* Always keep children and animals safe from Aurora when it is used or when configuring its configuration.
 * Only use propellers provided by Camflite, specifically designed for use with the Aurora.
 
 When updating Aurora's configuration, it is important to prioritize safety. Always remove the propellers or power the Aurora with a low-power source to prevent accidental motor starts and resulting propeller strikes. Before each flight, it is crucial to test the Aurora without the propellers to ensure that the motors are spinning in the correct direction and that the motor assignment corresponds with the Autopilot flight controller. Any motor direction or assignment inconsistencies can cause the Aurora to become uncontrollable and dangerous.\
