@@ -17,9 +17,8 @@ Always thoroughly check the Aurora and its components before each operation. Mai
 * Always keep children and animals at a safe distance from the Aurora when it is in use or when making changes to its configuration.
 * Only use propellers provided by Camflite, specifically designed for use with the Aurora.
 
-It is important to prioritize safety when updating Aurora's configuration. To prevent any accidental motor starts and resulting propeller strikes, always remove the propellers or power the Aurora with a low-power source. Additionally, don't forget to remove the configuration jumper when making changes.\
-Before each flight, it is crucial to test the Aurora without the propellers to ensure that the motors are spinning in the correct direction and that the motor assignment corresponds with the Autopilot flight controller. Any inconsistencies in motor direction or assignment can cause the Aurora to become uncontrollable and dangerous.\
-As the operator, it is your responsibility to perform a thorough system check on the Aurora before every flight and to learn how to operate it safely. Please follow all relevant rules and regulations to ensure safe and successful flights.
+When updating Aurora's configuration, it is important to prioritize safety. To prevent accidental motor starts and resulting propeller strikes, always remove the propellers or power the Aurora with a low-power source. Before each flight, it is crucial to test the Aurora without the propellers to ensure that the motors are spinning in the correct direction and that the motor assignment corresponds with the Autopilot flight controller. Any motor direction or assignment inconsistencies can cause the Aurora to become uncontrollable and dangerous.\
+As the operator, you are responsible for performing a thorough system check on the Aurora before every flight and learning how to operate it safely. Please follow all relevant rules and regulations to ensure safe and successful flights.
 
 **Fly at your own risk.**
 
@@ -27,7 +26,7 @@ The Aurora is a tuned system with custom components chosen for each application.
 
 ## **Limitations of Liability**:&#x20;
 
-Please note that Camflite cannot be held accountable for any indirect, consequential, punitive, incidental, or special damages that may result from the use of Aurora, including loss of data, use, or profits. This applies under any theory of liability, even if Camflite has been informed of the possibility of such damages. Camflite's liability for a product, whether it is a contract or tort claim or otherwise, will not exceed the amount paid to Camflite for that product. In any circumstance, Camflite's liability for all claims associated with this agreement will not exceed the amount paid by the purchaser to Camflite for the product over the last 12 months. Please note that Camflite will not be responsible for the cost of acquiring substitute goods by the purchaser. These restrictions apply to all liabilities resulting from third-party claims against the buyer and are valid regardless of the limited remedy's essential purpose.
+Please note that Camflite cannot be held accountable for any indirect, consequential, punitive, incidental, or special damages resulting from using Aurora, including loss of data, use, or profits. This applies under any theory of liability, even if Camflite has been informed of the possibility of such damages. Camflite's liability for a product, whether a contract or tort claim or otherwise, will not exceed the amount paid to Camflite for that product. In any circumstance, Camflite's liability for all claims associated with this agreement will not exceed the amount paid by the purchaser to Camflite for the product over the last 12 months. Please note that Camflite will not be responsible for the cost of acquiring substitute goods by the purchaser. These restrictions apply to all liabilities resulting from third-party claims against the buyer and are valid regardless of the limited remedy's essential purpose.
 
 Camflite shall not be liable for damages or injuries directly or indirectly resulting from the use of the Aurora, including but not limited to the following situations:
 
@@ -38,6 +37,7 @@ Failure of the operator to follow proper instructions and safety warnings is fou
 * Failure of the operator to follow and comply with local rules and regulations.
 * Failure of the operator to follow and comply with local communications law.
 * Failure of the operator to inspect the Aurora and its components before operation.
+* Modifying any component that is designed and provided Camflite
 * Failure of the operator to properly maintain and service the Aurora through an authorized Camflite Service Center using genuine Aurora parts.
 * Use of third-party products on the Aurora.
 * Use of the Aurora while physically or mentally impaired. Use of the Aurora without sufficient training.
