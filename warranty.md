@@ -1,21 +1,21 @@
 # Warranty
 
-Please ensure that you carefully read and understand this disclaimer and warning and review the Aurora Aircraft Flight Manual (AFM) before flying. If you have any questions, please contact paul@Camflite.comprior for assistance with the Aurora. The most current version of the manual is on the Aurora Support Page.
+Please read and understand this warning disclaimer and review the Aurora Aircraft Flight Manual (AFM) before flying. If you have any questions, please get in touch with paul@Camflite.com before assistance with the Aurora. The most current version of the manual is on the Aurora Support Page.
 
 By using Aurora, you acknowledge that you have read, understood, and agreed to this disclaimer. You accept full responsibility for your actions while using Aurora and for any direct or indirect consequences resulting from its use. You agree to use Aurora only for legitimate purposes in compliance with local and airspace rules and regulations.
 
 * Aurora is not a toy and should be operated with extreme care. Improper operation can damage property, cause serious personal injury, or cause death.
-* Aurora is a complex and technically advanced multi-rotor aircraft. Novice pilots must invest enough time in a flight simulator and seek training from an experienced pilot before operating in Aurora. The Aurora Aircraft Flight Manual and a flight simulator are not enough on their own and should not be seen as a substitute for training with an experienced pilot, especially when learning how to safely operate Aurora. Novice pilots should never fly without the supervision of an experienced pilot.
+* Aurora is a complex and technically advanced multi-rotor aircraft. Before operating Aurora, novice pilots must invest enough time in a flight simulator and seek training from an experienced pilot. The Aurora Aircraft Flight Manual and a flight simulator are not enough on their own and should not be seen as a substitute for training with an experienced pilot, especially when learning how to safely operate Aurora. Novice pilots should never fly without the supervision of an experienced pilot.
 * Always check Aurora and its components before operation. When in use, always maintain a safe distance from Aurora.
 * Never attempt to touch Aurora when the propellers are moving.
-* Never fly Aurora over or around people, power lines or other aircraft.
+* Never fly Aurora over or around people, power lines, or other aircraft.
 * Never fly with any propellers that have visible imperfections or damage.
-* Always keep children and animals safe from Aurora when in use and when changing configurations.
+* Always keep children and animals safe from Aurora when used and changing configurations.
 * Only use propellers supplied by Camflite Systems that are designed for use on Aurora.
-* Always remove the propellers or power Aurora using a low power source when making a change to its configuration to prevent propeller strikes in the event of unintentional motor starts. Also, always remove the configuration jumper when making changes to its configuration.
+* Always remove the propellers or power Aurora using a low power source when changing its configuration to prevent propeller strikes in the event of unintentional motor starts. Also, always remove the configuration jumper when changing its configuration.
 * Always test Aurora without the propellers to ensure the motors are spinning in the right direction and that the motor assignment aligns with the Autopilot flight controller. If either of these is incorrect, Aurora will be uncontrollable and dangerous.
 * You are responsible for performing a full system check of Aurora before every flight.
-* You are responsible for learning how to safely operate Aurora and adhering to all applicable rules and regulations.
+* You are responsible for learning to safely operate Aurora and adhering to all applicable rules and regulations.
 * Fly at your own risk.
 * Aurora is a tuned system with custom components selected for each application. Modifying, removing, or substituting Aurora components will void the warranty and lead to unsafe operating conditions.
 
