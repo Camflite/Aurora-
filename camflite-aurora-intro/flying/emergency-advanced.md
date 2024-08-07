@@ -24,17 +24,17 @@ During emergencies, it's important to not solely rely on Return Mode as it may n
 
 
 
-When considering the need to perform an emergency stop on an aircraft, it is essential to remember that doing so while the aircraft is in the air would result in a catastrophic crash. Therefore, if there is a need for an emergency stop, it must be executed in a location that is as far from people as possible to minimize the risk of harm or damage to others. It is crucial to explore all other options and prioritize safety before resorting to an emergency stop.
+When considering the need to perform an emergency stop on an aircraft, it is essential to remember that doing so while the aircraft is in the air would result in a catastrophic crash. Therefore, if an emergency stop is necessary, it must be executed in a location as far from people as possible to minimize the risk of harm or damage to others. Exploring all other options and prioritizing safety before resorting to an emergency stop is crucial.
 
 
 
 ## Error and Warning Indication&#x20;
 
-The aircraft uses Auterion Mission Control (AMC) status indicators on the pilot handset or PC to communicate the presence of errors and warnings. Most messages are accompanied by an audible message, such as "Return Flight Mode". Moreover, when the battery level is low, the Aurora boom LEDs will start flashing.
+The aircraft uses Auterion Mission Control (AMC) status indicators on the pilot handset or PC to communicate the presence of errors and warnings. Most messages are accompanied by an audible message, such as "Return Flight Mode". Moreover, the Aurora boom LEDs will start flashing when the battery level is low.
 
-Status messages, including errors and warnings, are stored in Flight Logs. After any emergency, review the log to determine the source of the problem.
+Status messages, including errors and warnings, are stored in Flight Logs. After an emergency, review the log to determine the source of the problem.
 
-If the meaning of an error or warning is not clear, please contact Camflite Support. Share as much detail as possible, including sharing the flight log.
+If the meaning of an error or warning is unclear, don't hesitate to contact Camflite Support. Share as many details as possible, including the flight log.
 
 ## Emergency Procedure Checklists
 
@@ -42,7 +42,7 @@ The Aurora checklists provide concise instructions to mitigate risks resulting f
 
 ### Loss of Orientation
 
-If the orientation of the aircraft is lost, it is recommended to neutralize the inputs and activate the position mode. The next step is to work on identifying the front of the aircraft. We suggest doing so by using a "guess and check" method consisting of small roll-right inputs while yawing the aircraft 90 degrees at a time. It is better to use a roll input rather than pitch because lateral motion is easier to see at a distance than fore/aft motion.\
+If the aircraft's orientation is lost, it is recommended to neutralize the inputs and activate the position mode. The next step is to work on identifying the front of the aircraft. We suggest using a "guess and check" method consisting of small roll-right inputs while yawing the aircraft 90 degrees at a time. Using a roll input rather than pitch is better because lateral motion is easier to see at a distance than fore/aft motion.\
 \
 If it is impossible to identify the orientation and it is safe to activate the Return Mode, we recommend doing so. In Return Mode, by default, the aircraft will yaw to put the front towards the direction of flight after climbing.
 
@@ -70,7 +70,7 @@ If an attempted landing in Manual Mode is unsuccessful, perform an Emergency Sto
 
 ### Loss of GPS
 
-If the GPS connection is lost during flight, the aircraft will switch to (Altitude Mode) and GPS-reliant flight modes such as Position, Return, and Mission will not be available.
+If the GPS connection is lost during flight, the aircraft will switch to (Altitude Mode), and GPS-reliant flight modes such as Position, Return, and Mission will not be available.
 
 {% hint style="info" %}
 It is the pilot's responsibility to be proficient with altitude and manual mode and to have the aircraft configured safely in case of GPS loss.
@@ -78,7 +78,7 @@ It is the pilot's responsibility to be proficient with altitude and manual mode 
 
 Examples of behavior without GPS:
 
-* If GPS is not available when arming the device, the Home Point will not be set and Return Mode will be unavailable during the flight. Even if GPS becomes available later, Return Mode will not be available.
+* If GPS is unavailable when arming the device, the Home Point will not be set, and Return Mode will be unavailable during the flight. Even if GPS becomes available later, Return Mode will not be available.
 * If the pilot tries to enter Return Mode, an error will be displayed on the pilot's handset, and the aircraft will remain in its current mode (Altitude or Manual).
 * If Land Mode is activated, for example, due to a failsafe, the aircraft will descend as if it were in Altitude mode. It will maintain a consistent attitude but drift with the wind. However, it's worth noting that the pilot cannot activate Land Mode because it requires GPS.
 * If GPS is lost during a mission, the aircraft will display a warning and switch flight mode to either Altitude Mode or Manual Mode, depending on the degradation of the signal.&#x20;
@@ -87,7 +87,7 @@ Examples of behavior without GPS:
 
 ### RC Loss of Signal (LOS)
 
-RC Loss of Signal (LOS) can occur if the pilot's handset signal degrades or stops or if Aurora doesn't receive the signal due to distance or interference (e.g., obstacles or other radio signals).
+RC Loss of Signal (LOS) can occur if the pilot's handset signal degrades or stops or Aurora doesn't receive the signal due to distance or interference (e.g., obstacles or other radio signals).
 
 A failsafe mechanism will be activated if the remote control signal is lost longer than the RC Timeout. The RC Timeout is set to 0.5 seconds, which may not allow enough time for the pilot to react before the failsafe mechanism is triggered. By default, the failsafe mechanism will activate the Return Mode.
 
@@ -103,14 +103,14 @@ Please note that there are two types of signal losses in RC (remote control) sys
 
 ### Loss of Video Signal
 
-Video signal loss can occur if the aircraft flies out of range or behind an object that blocks the signal. Maintaining visual contact is the best way to regain control of the aircraft. This can be achieved by the pilot seeing the aircraft or using a visual observer.
+Video signal loss can occur if the aircraft flies out of range or behind an object that blocks the signal. The best way to regain control of the aircraft is to maintain visual contact. This can be achieved by the pilot seeing the aircraft or using a visual observer.
 
 Yawing the aircraft can improve signal reception if the aircraft body is blocking the line of sight between transmitter and receiver antennas.
 
 If the video signal or visual contact is lost, activate Return Mode to bring the aircraft back within signal reception range.
 
 {% hint style="danger" %}
-As a pilot, it is your responsibility to be vigilant and avoid any potential collisions with other aircraft or obstacles. During flight, you must maintain a direct line of sight with Aurora and adhere to the see-and-avoid requirements as mandated by local regulations. Additionally, you may use visual observers as needed to ensure the safety of your operations.
+As a pilot, it is your responsibility to be vigilant and avoid any potential collisions with other aircraft or obstacles. During flight, you must maintain a direct line of sight with Aurora and adhere to the see-and-avoid requirements mandated by local regulations. Additionally, you may use visual observers as needed to ensure the safety of your operations.
 {% endhint %}
 
 ## Failsafes
@@ -127,7 +127,7 @@ We highly recommend using the default settings and only modifying the Return Alt
 
 Battery level is evaluated based on the State of Charge (SoC, e.g., 72%), not voltage (e.g., 23 Volts).
 
-When the battery level of the aircraft becomes low, the autopilot system can take action. However, the system's default settings do not intervene until the battery level becomes very low. Furthermore, the low battery failsafes cannot determine the position or distance of the aircraft from its Home Point. Therefore, the pilots are responsible for monitoring the battery level and ensuring that the aircraft is safely landed on the ground.
+The aircraft safely lands when the battery level of the aircraft becomes low, and the autopilot system can take action. However, the system's default settings do not intervene until the battery level becomes very low. Furthermore, the low battery failsafes cannot determine the position or distance of the aircraft from its Home Point. Therefore, the pilots are responsible for monitoring the battery level and ensuring the aircraft safely lands on the ground.
 
 | State     | SoC (default) | Action (default)       |
 | --------- | ------------- | ---------------------- |
