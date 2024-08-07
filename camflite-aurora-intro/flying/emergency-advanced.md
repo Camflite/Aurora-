@@ -79,54 +79,55 @@ It is the pilot's responsibility to be proficient with altitude and manual mode 
 Examples of behavior without GPS:
 
 * If GPS is not available when arming the device, the Home Point will not be set and Return Mode will be unavailable during the flight. Even if GPS becomes available later, Return Mode will not be available.
-* If the pilot tries to enter Return Mode, an error will be displayed on the pilot's handset and the aircraft will remain in its current mode (Altitude or Manual).
-* If Land Mode is activated, for example, due to a failsafe, the aircraft will descend as if it were in Altitude mode. This means that it will maintain a consistent attitude but drift with the wind. However, it's worth noting that Land Mode cannot be activated by the pilot because it requires GPS.
+* If the pilot tries to enter Return Mode, an error will be displayed on the pilot's handset, and the aircraft will remain in its current mode (Altitude or Manual).
+* If Land Mode is activated, for example, due to a failsafe, the aircraft will descend as if it were in Altitude mode. It will maintain a consistent attitude but drift with the wind. However, it's worth noting that the pilot cannot activate Land Mode because it requires GPS.
 * If GPS is lost during a mission, the aircraft will display a warning and switch flight mode to either Altitude Mode or Manual Mode, depending on the degradation of the signal.&#x20;
+* Loss of GPS due to electronic connection issues can lead to total loss of control.
 * If GPS provides altitude information, such as when using (RTK GPS), the Altitude Mode's ability to maintain altitude accurately may be affected if GPS is lost.
 
 ### RC Loss of Signal (LOS)
 
-RC Loss of Signal (LOS) can occur if the pilot's handset signal degrades, stops, or if Aurora doesn't receive the signal due to distance or interference (e.g. from obstacles or other radio signals).
+RC Loss of Signal (LOS) can occur if the pilot's handset signal degrades or stops or if Aurora doesn't receive the signal due to distance or interference (e.g., obstacles or other radio signals).
 
-If the remote control signal is lost for a duration longer than the RC Timeout, a failsafe mechanism will be activated. The RC Timeout is set to a short duration of 0.5 seconds, which may not allow enough time for the pilot to react before the failsafe mechanism is triggered. By default, the failsafe mechanism will activate the Return Mode.
+A failsafe mechanism will be activated if the remote control signal is lost longer than the RC Timeout. The RC Timeout is set to 0.5 seconds, which may not allow enough time for the pilot to react before the failsafe mechanism is triggered. By default, the failsafe mechanism will activate the Return Mode.
 
 If the signal is lost, check the power and orientation of the pilot's handset antenna, especially when Aurora is far from the pilot.
 
 If the signal is recovered, the pilot can take control by moving the sticks or pressing a flight mode button.
 
 {% hint style="info" %}
-Please note that there are two types of signal losses in RC (remote control) systems: Loss of Signal (LOS) and Data Link Loss. LOS refers to the stream of SBUS data that contains the pilot's inputs, while Data Link Loss refers to the stream of MavLINK messages. Aurora routes both data streams through a single radio system. It is important to remember that during operation, the AMC (Aurora Mission Control) app must be in the foreground on the pilot handset. Otherwise, the Data Link will fail after 30 seconds and trigger a failsafe. So, if the AMC app is closed or running in the background, the Data Link will fail, and the failsafe will be triggered.
+Please note that there are two types of signal losses in RC (remote control) systems: Loss of Signal (LOS) and Data Link Loss. LOS refers to the SBUS data stream containing the pilot's inputs, while Data Link Loss refers to the stream of MavLINK messages. Aurora routes both data streams through a single radio system. It is important to remember that during operation, the AMC (Aurora Mission Control) app must be in the foreground on the pilot handset. Otherwise, the Data Link will fail after 30 seconds and trigger a failsafe. So, if the AMC app is closed or running in the background, the Data Link will fail, and the failsafe will be triggered.
 {% endhint %}
 
 
 
 ### Loss of Video Signal
 
-Loss of video signal can occur if the aircraft flies out of range or behind an object that blocks the signal. The best way to regain control of the aircraft is by maintaining visual contact. This can be achieved either by the pilot seeing the aircraft or by using a visual observer.
+Video signal loss can occur if the aircraft flies out of range or behind an object that blocks the signal. Maintaining visual contact is the best way to regain control of the aircraft. This can be achieved by the pilot seeing the aircraft or using a visual observer.
 
 Yawing the aircraft can improve signal reception if the aircraft body is blocking the line of sight between transmitter and receiver antennas.
 
 If the video signal or visual contact is lost, activate Return Mode to bring the aircraft back within signal reception range.
 
 {% hint style="danger" %}
-As a pilot, it is your responsibility to be vigilant and avoid any potential collisions with other aircraft or obstacles. During flight, you must maintain a direct line of sight with Aurora  and adhere to the see-and-avoid requirements as mandated by local regulations. Additionally, you may use visual observers as needed to ensure the safety of your operations.
+As a pilot, it is your responsibility to be vigilant and avoid any potential collisions with other aircraft or obstacles. During flight, you must maintain a direct line of sight with Aurora and adhere to the see-and-avoid requirements as mandated by local regulations. Additionally, you may use visual observers as needed to ensure the safety of your operations.
 {% endhint %}
 
 ## Failsafes
 
-Failsafe behavior and settings are configured in AMC. The [AMC documentation ](https://docs.auterion.com/vehicle-operation/settings-and-maintenance/safety)covers each failsafe and related settings in detail.
+AMC configures failsafe behavior and settings. The AMC documentation covers each failsafe and related setting in detail.
 
 Some failsafes are discussed briefly below.
 
 {% hint style="warning" %}
-We highly recommend using the default settings and only modifying the Return Altitude, unless you're an expert user who has extensively tested the impact of changes.
+We highly recommend using the default settings and only modifying the Return Altitude unless you're an expert user who has extensively tested the impact of changes.
 {% endhint %}
 
 ### Low Battery
 
-Battery level is evaluated from the State of Charge (SoC, e.g. 72%), not voltage (e.g. 23 Volts).
+Battery level is evaluated based on the State of Charge (SoC, e.g., 72%), not voltage (e.g., 23 Volts).
 
-When the battery level of the aircraft becomes low, the autopilot system can take action. However, the default settings of the system do not intervene until the battery level becomes very low. Furthermore, the low battery failsafes are not able to determine the position or distance of the aircraft from its Home Point. Therefore, it is the pilot's responsibility to monitor the battery level and ensure that the aircraft is safely landed on the ground.
+When the battery level of the aircraft becomes low, the autopilot system can take action. However, the system's default settings do not intervene until the battery level becomes very low. Furthermore, the low battery failsafes cannot determine the position or distance of the aircraft from its Home Point. Therefore, the pilots are responsible for monitoring the battery level and ensuring that the aircraft is safely landed on the ground.
 
 | State     | SoC (default) | Action (default)       |
 | --------- | ------------- | ---------------------- |
