@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Emergency Procedures
 
 This section provides checklists and procedures for coping with emergencies that may arise during sUAS operations. Malfunctions are rare, especially if proper pre-flight inspections and maintenance are practiced. Weather emergencies may be minimized by careful flight planning and sound judgment; however, sUAS pilots should be ready to respond to rapidly changing weather conditions. Should an emergency arise, the guidelines in this section should be considered and applied as necessary to correct problems.
