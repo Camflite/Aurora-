@@ -42,7 +42,7 @@ The Aurora checklists provide concise instructions to mitigate risks resulting f
 
 ### Loss of Orientation
 
-If the aircraft's orientation is lost, it is recommended to neutralize the inputs and activate the position mode. The next step is to work on identifying the front of the aircraft. We suggest using a "guess and check" method consisting of small roll-right inputs while yawing the aircraft 90 degrees at a time. Using a roll input rather than pitch is better because lateral motion is easier to see at a distance than fore/aft motion.\
+If the aircraft's orientation is lost, neutralizing the inputs and activating the position mode are recommended. The next step is to work on identifying the front of the aircraft. We suggest using a "guess and check" method consisting of small roll-right inputs while yawing the aircraft 90 degrees at a time. Using a roll input rather than pitch is better because lateral motion is easier to see at a distance than fore/aft motion.\
 \
 If it is impossible to identify the orientation and it is safe to activate the Return Mode, we recommend doing so. In Return Mode, by default, the aircraft will yaw to put the front towards the direction of flight after climbing.
 
@@ -55,6 +55,12 @@ If the Aurora aircraft behaves erratically, perform the following steps: neutral
 In some cases, unexpected behavior may occur due to degraded GPS signals or erroneous sensor readings. Return Mode may not behave reliably in such cases. However, Manual Mode does not rely on these sensors.
 
 Land as soon as possible.
+
+
+
+{% hint style="warning" %}
+If the drone does anything out of the norm, contact Camflite for help.
+{% endhint %}
 
 ### Landing Detector Failure
 
