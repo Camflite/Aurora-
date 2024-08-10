@@ -13,7 +13,7 @@
 * **Max speed: 50 mph / 72 km/h**
 * **Flight Control- Auterion Skynode**
 * **Dust & water-resistant**
-* **Operational Temp-10 to 50c**
+* **Operational Temp-10c to 50c**
 * **Maximum thrust \~88 lbs. / \~40 kg**
 * **FPV Camera**
 * **Remote ID**&#x20;
