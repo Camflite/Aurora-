@@ -26,5 +26,5 @@ The 3D View will only be available if a valid ESRI license token has been provid
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 

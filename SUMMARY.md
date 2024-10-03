@@ -58,6 +58,7 @@
     * [Precise Flight](payload/flight-operations/precise-flight.md)
   * [I/O Board and Payload Power](payload/i-o-board-and-payload-power.md)
   * [Gremsy Gimbal w/Sony A7](payload/gremsy-gimbal-w-sony-a7.md)
+  * [Pro Tips](payload/pro-tips.md)
 * [Specs and Interfaces](specs-and-interfaces/README.md)
   * [Technical Specifications](specs-and-interfaces/technical-specifications.md)
   * [Performance](specs-and-interfaces/performance.md)

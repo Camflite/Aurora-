@@ -54,7 +54,7 @@ Once the map download is complete, you can access it in the Offline Maps section
 
 
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="292"><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" width="292"><figcaption></figcaption></figure>
 
 
 
