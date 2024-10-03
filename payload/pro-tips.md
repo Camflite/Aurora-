@@ -51,7 +51,7 @@ Adjust the overlap and side-lap settings to suit your processing software and ou
 
 
 
-
+## Tips for Small Projects
 
 Aurora can cover areas larger than 200 acres in a single flight at 2cm GSD. Here are some tips for flying these types of missions:
 
@@ -60,3 +60,4 @@ Aurora can cover areas larger than 200 acres in a single flight at 2cm GSD. Here
 * Fly at 10-12m/s. The aircraft can fly up to 15m/s, but the flight time will actually increase if it is above 12m/s, resulting in a longer flight.
 * A "typical" large area survey might have the following parameters: 12m/s speed, 120m altitude, 70% front overlap, 65% side overlap, and the gimbal angle pointing down (90°).
 * Aurora defaults to limiting the distance between waypoints to 900 meters. This is a safety measure to prevent accidental waypoints from sending the drone out of range to unintended locations. However, in some rare cases, this may restrict the length of a survey. The distance between waypoints can be increased by adjusting the MIS\_DIST\_WPS parameter. It's important not to set this value larger than needed to maintain safety.
+
