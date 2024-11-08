@@ -72,6 +72,5 @@
   * [MavSDK](development-tools/mavsdk.md)
   * [Electrical and I/O](development-tools/electrical-and-i-o.md)
   * [Software Interfaces](development-tools/software-interfaces.md)
-* [Legal](legal.md)
-* [Warranty](warranty.md)
+* [Limited Warranty](limited-warranty.md)
 * [Service Bullitins](service-bullitins.md)
