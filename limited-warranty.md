@@ -1,10 +1,6 @@
----
-description: Camflite, INC (“CFT”) LIMITED WARRANTY AND SERVICE POLICIES
----
-
 # Limited Warranty
 
-Limited Warranty
+## Limited Warranty
 
 Camflite, (“CFT”) LIMITED WARRANTY AND SERVICE POLICIES
 
@@ -57,7 +53,7 @@ CFT is not liable for any loss or disclosure of data, including confidential, pr
 \
 In no event shall CFT, its affiliates, suppliers, resellers, or service providers be liable for any of the following, regardless of whether the claim is based on contract, warranty, negligence, strict liability, or any other legal theory, even if they have been informed of the potential for such claims and regardless of the failure of essential purposes of any remedies outlined herein:
 
-1. &#x20;Third party claims against you for damages
+1. &#x20;Third-party claims against you for damages
 2. &#x20;Loss, damage or disclosure of your data
 3. &#x20;Special, incidental, punitive, indirect or consequential damages, including but not limited to lost profits, business revenue, goodwill or anticipated savings
 
