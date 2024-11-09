@@ -1,7 +1,5 @@
 # Limited Warranty
 
-## Limited Warranty
-
 Camflite, (“CFT”) LIMITED WARRANTY AND SERVICE POLICIES
 
 ## PART I – LIMITED WARRANTY
