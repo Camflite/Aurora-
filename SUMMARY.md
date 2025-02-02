@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Aurora (CRD1)](README.md)
+* [Aurora Manual](README.md)
 * [Camflite Aurora Intro](camflite-aurora-intro/README.md)
   * [Introduction](camflite-aurora-intro/introduction.md)
   * [Getting Started](camflite-aurora-intro/getting-started.md)
